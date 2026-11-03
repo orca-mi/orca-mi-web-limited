@@ -1,0 +1,61 @@
+ORCA-MI Research Licence
+Version 1.0
+
+Copyright (c) 2026 Yazdan Salimi (salimiyazdan@gmail.com). All rights reserved.
+
+"ORCA-MI" (Open Radiology & Computational Analysis - Molecular Imaging) means the
+programs distributed in this repository (ORCA-MI.exe, the ORCA-MI installer),
+the accompanying files (orcami.py, examples) and the documentation.
+
+1. Permitted use
+   You may download, install and use ORCA-MI free of charge for
+   non-commercial research and education, including academic and
+   hospital research.
+
+2. Not permitted
+   Without prior written permission of the author you may not:
+   a. use ORCA-MI commercially, including for paid services or in, or for
+      the development of, a commercial product;
+   b. sell, rent, lease or sublicense ORCA-MI;
+   c. distribute modified copies of ORCA-MI, or reverse engineer,
+      decompile or disassemble it, except as far as applicable law
+      expressly permits this despite this restriction;
+   d. remove or change the copyright, licence or research-use notices.
+   You may share unmodified copies of the files as published in this
+   repository, together with this licence, free of charge.
+
+3. No clinical use
+   ORCA-MI is a research tool. It is not a medical device: it has no CE
+   marking and no FDA clearance. It must not be used for diagnosis,
+   treatment, treatment planning or any other clinical decision about a
+   patient. All measurements, segmentations, dose estimates and AI results
+   must be checked by a qualified person.
+
+4. Citation
+   If you use ORCA-MI in work that leads to a publication, presentation or
+   report, please cite it as described in CITATION.cff in this repository.
+
+5. Third-party components
+   ORCA-MI contains open-source libraries that remain under their own
+   licences; these are listed, with their licence texts, in
+   docs/third_party_licenses.html and in the program (Help -> About ->
+   Third-party licences). Optional components that ORCA-MI downloads or
+   installs on request (for example Python, PyTorch, nnU-Net,
+   nnInteractive, MONAI and AI model weights) are covered by their own
+   licences. The nnInteractive model weights, and every model fine-tuned
+   from them, are licensed under CC BY-NC-SA 4.0 (non-commercial use only).
+
+6. No warranty, no liability
+   ORCA-MI is provided "as is", without warranty of any kind, express or
+   implied, including the warranties of merchantability, fitness for a
+   particular purpose and non-infringement. To the maximum extent
+   permitted by law, the author is not liable for any claim, damage or
+   other liability, including loss of data, arising from the use of, or
+   the inability to use, ORCA-MI.
+
+7. Termination
+   This licence ends automatically if you do not comply with it. You must
+   then stop using ORCA-MI and delete your copies.
+
+For commercial use or any other permission, contact the author:
+salimiyazdan@gmail.com

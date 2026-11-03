@@ -1,0 +1,8 @@
+# Only the website goes to GitHub (index.html, .js, .wasm, icon, README, LICENSE).
+# The source, build tools and test images stay on this computer.
+web/
+tools/
+testdata/
+site/
+*.py
+README.txt

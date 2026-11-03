@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ORCA-MI Web</title>
+  
+<script type="module">
+import init, * as bindings from './orca-mi-web-48723fd5880e9c58.js';
+const wasm = await init({ module_or_path: './orca-mi-web-ccae5f842e235597_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+  <link rel="icon" href="./icon-d1c07b5fc4984a40.png" integrity="sha384-S6+OCPJ1t8DyDF3sSvvMwg5Hio3ckdBwAV9o+NVQjfh0g4l/0eqY9oxWQmDl2dna"/>
+  <style>
+    html, body { overflow: hidden; margin: 0 !important; padding: 0 !important; height: 100%; width: 100%; background: #1b1b1d; color: #ddd; font-family: "Segoe UI", system-ui, sans-serif; }
+    canvas { display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    #loading { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; }
+  </style>
+<link rel="modulepreload" href="./orca-mi-web-48723fd5880e9c58.js" crossorigin="anonymous" integrity="sha384-pHpuYaP9iyJLkbQ3Jr+n6r8XYyXVH5Gk6r2pR/S0JsssywMi27TkeA0wDRHEX4wM"><link rel="preload" href="./orca-mi-web-ccae5f842e235597_bg.wasm" crossorigin="anonymous" integrity="sha384-gWdNNQ1NY2QOCfAArICmRZl9K+oC4+Yqb3AAL6NT3RfRN1TGRgS9uOtSeOB+UoaG" as="fetch" type="application/wasm"></head>
+<body>
+  <div id="loading"><b style="font-size:22px">ORCA-MI Web</b><span>Loading… (the first time takes a few seconds)</span><span style="font-size:12px;opacity:.7">Research use only — not for clinical diagnosis. Your files stay in this browser.</span></div>
+  <canvas id="orca_canvas"></canvas>
+</body>
+</html>
